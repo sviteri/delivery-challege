@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "roma-victor": "nodemon index.js",
+    "run-prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sviteri/delivery-challege.git"
+  },
+  "keywords": [
+    "delivery"
+  ],
+  "author": "Santiago Viteri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sviteri/delivery-challege/issues"
+  },
+  "homepage": "https://github.com/sviteri/delivery-challege#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.18"
+  }
+}
